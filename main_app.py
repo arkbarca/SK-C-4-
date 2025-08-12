@@ -136,6 +136,8 @@ def main():
             
             # 분기별 데이터 테이블 표시
             st.markdown("**📋 분기별 재무지표 상세 데이터**")
+            # '연간' 행 제거
+            quarterly_df = quarterly_df[~quarterly_df["분기"].str.contains("연간")]
             st.dataframe(quarterly_df, use_container_width=True)
             
             if PLOTLY_AVAILABLE:
