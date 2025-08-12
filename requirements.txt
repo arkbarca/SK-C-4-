@@ -1,0 +1,15 @@
+streamlit
+pandas
+requests
+feedparser
+gspread
+google-auth-oauthlib
+google-api-python-client
+plotly
+beautifulsoup4
+lxml
+reportlab
+wordcloud
+matplotlib
+python-dotenv
+openpyxl
